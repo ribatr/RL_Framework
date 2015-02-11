@@ -1,0 +1,8 @@
+.DS_Store
+.tern-port
+.tmp/
+.swp/
+dist/
+node_modules/
+source/stylesheets/*.css
+source/stylesheets/collectives/*.css
