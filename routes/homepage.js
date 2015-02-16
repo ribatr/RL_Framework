@@ -5,14 +5,14 @@ module.exports = function(app) {
 
     routes.index = function(req, res) {
         var jsonData = {
-            pageTitle: 'Index',
-            pageName: 'Index',
-            pagePath: 'Index',
+            pageTitle: 'Home Page',
+            pageName: 'homepage',
+            pagePath: 'homepage',
             isReleaseBuild: ('development' !== app.get('env')),
         };
 
         // Render the HTML template using the jsonData
-        res.render('index', jsonData);
+        res.render('homepage', jsonData);
         
         // Tip: The `req` and `res` variables are actually very helpful! You
         // can use them to check the request headers and change the response
